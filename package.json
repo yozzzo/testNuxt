@@ -18,5 +18,9 @@
     "vue-router": "^4.2.5",
     "vue-tsc": "^1.8.27",
     "vuetify": "^3.4.10"
+  },
+  "dependencies": {
+    "aframe": "^1.5.0",
+    "mind-ar": "^1.2.5"
   }
 }

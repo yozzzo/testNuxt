@@ -13,39 +13,3 @@
     </a-scene>
   </div>
 </template>
-
-<script setup lang="ts">
-useHead({
-  title: "useHeadデモ",
-  script: [
-    {
-      type: "text/javascript",
-      src: "https://github.com/AR-js-org/AR.js/blob/master/aframe/build/aframe-ar-nft.js",
-    },
-    {
-      type: "text/javascript",
-      src: "https://github.com/AR-js-org/AR.js/blob/master/three.js/build/ar.js",
-    }
-  ]
-})
-</script>
-<style>
-.arjs-loader {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  z-index: 9999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.arjs-loader div {
-  text-align: center;
-  font-size: 1.25em;
-  color: white;
-}
-</style>

@@ -1,5 +1,19 @@
 {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "Vue.volar",
-    "prettier.vueIndentScriptAndStyle": true
+    "prettier.vueIndentScriptAndStyle": true,
+    "workbench.colorCustomizations": {
+        "activityBar.foreground": "#F4B47F",
+        "activityBar.background": "#000000",
+        "activityBar.inactiveForeground": "#89281E",
+        "activityBarBadge.foreground": "#000000",
+        "activityBarBadge.background": "#A0BF2C",
+        "statusBar.foreground": "#A1FFB0",
+        "statusBar.background": "#18862A",
+        "statusBarItem.hoverBackground": "#155D3A",
+        "statusBarItem.remoteForeground": "#93FFF2",
+        "statusBarItem.remoteBackground": "#107C6F",
+        "statusBar.debuggingForeground": "#000000",
+        "statusBar.debuggingBackground": "#4EBC61"
+    }
 }
